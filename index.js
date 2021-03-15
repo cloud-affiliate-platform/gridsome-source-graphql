@@ -52,6 +52,7 @@ class GraphQLSource {
         fieldName,
         typeName
       )
+      delete namespacedSchema._typeMap.Mutation;
 
       addSchema(namespacedSchema)
     })

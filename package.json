@@ -1,6 +1,6 @@
 {
   "version": "1.0.2",
-  "name": "gridsome-source-graphql",
+  "name": "@cloud-affiliate-platform/gridsome-source-graphql",
   "description": "GraphQL source for Gridsome",
   "homepage": "https://github.com/waxapi/gridsome-source-graphql",
   "repository": {
@@ -23,7 +23,8 @@
     "gridsome": "0.x"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "restricted",
+    "registry": "https://npm.pkg.github.com"
   },
   "engines": {
     "node": ">=8"
