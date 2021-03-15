@@ -18,10 +18,6 @@ jobs:
         env:
           GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
           NPM_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
-      - run: npm run build:ci
-        env:
-          GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
-          NPM_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
       - run: npx semantic-release
         env:
           GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
